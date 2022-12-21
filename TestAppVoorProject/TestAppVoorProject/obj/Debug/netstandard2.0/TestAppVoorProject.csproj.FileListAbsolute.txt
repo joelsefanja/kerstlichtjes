@@ -15,10 +15,10 @@ C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProjec
 C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\TestAppVoorProject.csproj.CoreCompileInputs.cache
 C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\TestAppVoorProject.dll
-C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\refint\TestAppVoorProject.dll
 C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\TestAppVoorProject.pdb
 C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\ref\TestAppVoorProject.dll
 C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\Views\RGBPage.xaml.g.cs
 C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\Views\LichtEffecten.xaml.g.cs
 C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\Views\Settings.xaml.g.cs
 C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\Views\ConnectPage.xaml.g.cs
+C:\Users\marcd\Downloads\TestAppVoorProject\TestAppVoorProject\TestAppVoorProject\obj\Debug\netstandard2.0\refint\TestAppVoorProject.dll

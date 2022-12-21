@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JfY6Uw56dcAJwwb0cY568pfvLxOsREyk0cJ/tWObbxOU+v442y0P1JGYZQ0swMsQZGMr3A1alGaRI29jXF0jPQ==",
+  "dgSpecHash": "jigjCW5NqJ499o5f8/HP8/Qvzp+jLYlFvTnGxUZHxRjknn+R8QAMFc8mKKjkbcRz6JLCzhBK65nZrxdJlU4HEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luukk\\Source\\Repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj",
+  "projectFilePath": "C:\\Users\\luukk\\source\\repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luukk\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\luukk\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luukk\\Source\\Repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj": {}
+    "C:\\Users\\luukk\\source\\repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luukk\\Source\\Repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj": {
+    "C:\\Users\\luukk\\source\\repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luukk\\Source\\Repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj",
+        "projectUniqueName": "C:\\Users\\luukk\\source\\repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj",
         "projectName": "TestAppVoorProject",
-        "projectPath": "C:\\Users\\luukk\\Source\\Repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj",
+        "projectPath": "C:\\Users\\luukk\\source\\repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\TestAppVoorProject.csproj",
         "packagesPath": "C:\\Users\\luukk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luukk\\Source\\Repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\obj\\",
+        "outputPath": "C:\\Users\\luukk\\source\\repos\\kerstlichtjes\\TestAppVoorProject\\TestAppVoorProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

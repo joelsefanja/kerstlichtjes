@@ -7,7 +7,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="2*" />
-                <RowDefinition Height="2*" />
+                
 
             </Grid.RowDefinitions>
             
@@ -18,11 +18,18 @@
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand" />
                 <Button Text="Verbinden" Margin="20,0,20,0" Clicked="Verbinden_Clicked" BackgroundColor="#40916C"/>
-
+                
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Label x:Name="statuslabel" Text="Status:" FontSize="20" />
                     <Label x:Name="status" Text="niet verbonden" FontSize="20" />
+                </StackLayout>
+                <StackLayout>
+                    <Entry x:Name="EntryIP"/>
+                    <Entry x:Name="EntryPort"/>
+                    <Label x:Name="LabelConnected"/>
+                    <Label/>
+
                 </StackLayout>
             </StackLayout>
         </Grid>

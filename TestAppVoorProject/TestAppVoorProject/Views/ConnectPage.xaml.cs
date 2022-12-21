@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
@@ -22,7 +23,27 @@ namespace TestAppVoorProject.Views
         private void Verbinden_Clicked(object sender, EventArgs e)
         {
             //TODO De verbinding verzorgen met de arduino
-
+            string ip = EntryIP.Text;
+            int port;
+            if (Int32.TryParse(EntryPort.Text, out port))
+            {
+                string reply = Connection.TestConnection(ip, port);
+                status.Text = reply;
+                if (reply == "Connection established, ECHO received")
+                {
+                    status.TextColor = Color.Green;
+                    App.Current.MainPage = new AppShell();
+                }
+                else
+                {
+                    status.TextColor = Color.Red;
+                }
+            }
+            else
+            {
+                status.Text = "Port not a number";
+                status.TextColor = Color.Red;
+            }
 
             //IPAddress serverAddr = IPAddress.Parse("141.252.226.139"); //ip adress van de arduino
             //IPEndPoint endPoint = new IPEndPoint(serverAddr, 80);
@@ -61,13 +82,25 @@ namespace TestAppVoorProject.Views
 
             //}
 
-            App.Current.MainPage = new AppShell();
+
+
+
+
+
+
+
+
+            
 
             //TODO Als de verbinding werkt dan doorgaan naar de volgende pagina
             //if (true)
             //{
             //    App.Current.MainPage = new AppShell();
             //}
+
+
+
+
 
         }
     }
