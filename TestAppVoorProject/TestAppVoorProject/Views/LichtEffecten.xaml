@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestAppVoorProject.Views.LichtEffecten"
+             xmlns:vm="clr-namespace:TestAppVoorProject.ViewModels"
+             Title="Licht effecten">
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Slider">
+                <Setter Property="Maximum" Value="255" />
+            </Style>
+            <Color x:Key="Accent">#96d1ff</Color>
+            <Style TargetType="Label">
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0" BackgroundColor="#0d2e22">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,5,0,5">
+                    <Button x:Name="Strobe" Text="Strobe" Clicked="Strobe_Clicked" BackgroundColor="#40916C" Margin="0,0,20,0" HeightRequest="125" WidthRequest="150"/>
+                    <Button x:Name="Fade" Text="Fade" Clicked="Fade_Clicked" BackgroundColor="#40916C" HeightRequest="125" WidthRequest="150"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,5,0,5">
+                    <Button x:Name="Disco" Text="Disco" Clicked="Disco_Clicked" BackgroundColor="#40916C" Margin="0,0,20,0" HeightRequest="125" WidthRequest="150"/>
+                    <Button x:Name="nr4" Text="Nr4" BackgroundColor="#40916C" HeightRequest="125" WidthRequest="150"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,5,0,5">
+                    <Button x:Name="nr5" Text="Nr5" Clicked="Strobe_Clicked" BackgroundColor="#40916C" Margin="0,0,20,0" HeightRequest="125" WidthRequest="150"/>
+                    <Button x:Name="nr6" Text="Nr6" Clicked="Fade_Clicked" BackgroundColor="#40916C" HeightRequest="125" WidthRequest="150"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,5,0,5">
+                    <Button x:Name="nr7" Text="Nr7" Clicked="Strobe_Clicked" BackgroundColor="#40916C" Margin="0,0,20,0" HeightRequest="125" WidthRequest="150"/>
+                    <Button x:Name="nr8" Text="Nr8" Clicked="Fade_Clicked" BackgroundColor="#40916C" HeightRequest="125" WidthRequest="150"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,5,0,5">
+                    <Button x:Name="nr9" Text="Nr9" Clicked="Strobe_Clicked" BackgroundColor="#40916C" Margin="0,0,20,0" HeightRequest="125" WidthRequest="150"/>
+                    <Button x:Name="nr10" Text="Nr10" Clicked="Fade_Clicked" BackgroundColor="#40916C" HeightRequest="125" WidthRequest="150"/>
+                </StackLayout>
+
+
+                <Button Margin="10" Text="Learn more"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="#40916C"
+                        TextColor="White" />
+
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
